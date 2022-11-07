@@ -53,6 +53,7 @@ class _MyAppState extends State<MyApp> {
       home: Scaffold(
         appBar: AppBar(
           title: const Text("Quiz App"),
+          backgroundColor: Colors.purple[200],
         ),
         body: _currentIndex < _questions.length
             ? Quiz(

@@ -14,6 +14,11 @@ class Answer extends StatelessWidget {
       margin: const EdgeInsets.all(10),
       child: ElevatedButton(
         onPressed: () => validateAnswer(option),
+        style: ButtonStyle(
+          backgroundColor: MaterialStateProperty.all(
+            Color.fromARGB(255, 134, 85, 143),
+          ),
+        ),
         child: Text(option),
       ),
     );
